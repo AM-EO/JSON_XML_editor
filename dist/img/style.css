@@ -1,0 +1,47 @@
+﻿body {
+    font-family: sans-serif;
+  }
+
+#editor {
+  display: table;
+  width: 100%;
+  resize: none;
+}
+.json_editor{
+  display: table-cell;
+  width: 500px;
+  height: 500px;
+  resize: none;
+  text-align: center;
+  vertical-align: middle;
+}
+textarea{
+  border: none;  
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+#divTextAreaXml{
+  border: solid;
+  border-color: rgba(18, 139, 39, 0.795);
+  border-top-width: 37px;
+  border-left-width: 1px;
+  border-right-width: 2px;
+  border-bottom-width: 1px;
+}
+
+textarea:active {outline:none;}
+textarea:focus {outline:none;}
+
+.button {
+  background: rgba(18, 139, 39, 0.795); /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 7px 12px; /* Поля */
+  margin-bottom: 1em; /* Отступ снизу */
+  border: 1px transparent; /* Прозрачная рамка */
+  }
+  .CLASSbutton:hover {
+  background: rgba(9, 80, 21, 0.795); /* Цвет фона при наведении курсора */
+  
+  }
+
